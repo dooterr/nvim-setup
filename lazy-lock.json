@@ -1,0 +1,12 @@
+{
+  "Comment.nvim": { "branch": "master", "commit": "0236521ea582747b58869cb72f70ccfa967d2e89" },
+  "argtextobj.vim": { "branch": "master", "commit": "f3fbe427f7b4ec436416a5816d714dc917dc530b" },
+  "flash-zh.nvim": { "branch": "main", "commit": "fdecbfd6b8050d28250712886d7c47ff0e010706" },
+  "flash.nvim": { "branch": "main", "commit": "48817af25f51c0590653bbc290866e4890fe1cbe" },
+  "lazy.nvim": { "branch": "main", "commit": "96584866b9c5e998cbae300594d0ccfd0c464627" },
+  "vim-highlightedyank": { "branch": "master", "commit": "fa3f57b097e9521ce41a66b6c7cf5d9adea70ea3" },
+  "vim-im-select": { "branch": "master", "commit": "d46002bc2fc7df079abbc9405602efdd929f59a8" },
+  "vim-indent-object": { "branch": "master", "commit": "5c5b24c959478929b54a9e831a8e2e651a465965" },
+  "vim-repeat": { "branch": "master", "commit": "24afe922e6a05891756ecf331f39a1f6743d3d5a" },
+  "vim-surround": { "branch": "master", "commit": "3d188ed2113431cf8dac77be61b842acb64433d9" }
+}
