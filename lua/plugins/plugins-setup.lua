@@ -32,17 +32,9 @@ local plugins = {
     event = "VeryLazy",
     dependencies = "folke/flash.nvim",
     keys = {
-      {
-        "s",
-        mode = { "n", "x", "o" },
-        function()
-          require("flash-zh").jump({ search = { forward = true, wrap = true, multi_window = true },labels = "asdfghjklqwertyuiopzxcvbnm", })
-        end,
-        desc = "Flash between Chinese",
-      },
-      { "f", mode = { "n", "x", "o" }, function() require("flash-zh").jump({ search = { forward = true, wrap = false, multi_window = false }, labels =
+      { "f", mode = { "n", "x", "o" }, function() require("flash-zh").jump({ search = { forward = true, wrap = true, multi_window = false }, labels =
         "asdfghjklqwertyuiopzxcvbnm", }) end,                                                                                                                                                desc = "Flash between Chinese" },
-      { "F", mode = { "n", "x", "o" }, function() require("flash-zh").jump({ search = { forward = false, wrap = false, multi_window = false }, labels =
+      { "F", mode = { "n", "x", "o" }, function() require("flash-zh").jump({ search = { forward = true, wrap = true, multi_window = true }, labels =
         "asdfghjklqwertyuiopzxcvbnm", }) end,                                                                                                                                                desc = "Flash between Chinese" },
     },
   },
